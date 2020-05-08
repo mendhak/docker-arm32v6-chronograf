@@ -1,0 +1,1 @@
+docker run -d -p 8888:8888 --rm -it chronograftest chronograf --influxdb-url=http://zero:8086 --bolt-path /bolt.db
