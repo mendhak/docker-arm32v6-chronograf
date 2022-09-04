@@ -19,7 +19,7 @@ services:
             - ./influxdbbackups:/backups/
 
     chronograf:
-        image: chronograftest
+        image: mendhak/arm32v6-chronograf
         container_name: chronograf
         ports:
             - 80:8888
